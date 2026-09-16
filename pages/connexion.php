@@ -3,7 +3,6 @@
 $message_erreur = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Récupérer les données du formulaire
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $mot_de_passe = isset($_POST['mot_de_passe']) ? $_POST['mot_de_passe'] : '';
     

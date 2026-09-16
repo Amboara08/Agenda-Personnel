@@ -4,7 +4,6 @@
         <div class="alert alert-<?php echo isset($_SESSION['message_type']) ? $_SESSION['message_type'] : 'info'; ?> alert-dismissible fade show glass-effect" role="alert">
             <?php 
                 echo $_SESSION['message']; 
-                // Nettoyer les messages après affichage
                 unset($_SESSION['message']);
                 unset($_SESSION['message_type']);
             ?>
