@@ -1,8 +1,5 @@
 <?php
-/**
- * Modèle Tache
- * Gère les opérations liées aux tâches
- */
+
 class Tache {
     private $id;
     private $titre;
